@@ -18,7 +18,7 @@
     <h1 class="title">ESCOLHA SEU INFLUENCER FAVORITO</h1>
 
     <div class="image-container">
-      <div class="influencer-image">
+      <div class="influencer-image" onclick="vote('Lucas Inutilismo')">
         <img
           loading="lazy"
           src="images/lucas-inutilismo.png"
@@ -26,7 +26,7 @@
         />
       </div>
 
-      <div class="influencer-image">
+      <div class="influencer-image" onclick="vote('Cara da ucrania')">
         <img
           loading="lazy"
           src="images/cara-ucraniano.png"
@@ -34,15 +34,11 @@
         />
       </div>
 
-      <div class="influencer-image">
-        <img
-          loading="lazy"
-          src="images/mercurio.png"
-          alt="Mercurio"
-        />
+      <div class="influencer-image" onclick="vote('Mercurio')">
+        <img loading="lazy" src="images/mercurio.png" alt="Mercurio" />
       </div>
     </div>
 
-    <button type="button">Votar</button>
+    <script src="./script.js"></script>
   </body>
 </html>
