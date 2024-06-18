@@ -30,8 +30,12 @@ h1 {
   gap: 64px;
 }
 
-.influencer-image-wrap {
-  width: 128px;
+.influencer-image {
+  transition: all 200ms;
+}
+
+.influencer-image:hover {
+  transform: scale(2);
 }
 
 button {
